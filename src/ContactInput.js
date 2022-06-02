@@ -39,7 +39,7 @@ class ContactInput extends React.Component {
 
   render() {
     return (
-      <form className="contact-input">
+      <form className="contact-input" onSubmit={this.onSubmitEventHandler}>
         <input
           type="text"
           placeholder="Nama"
